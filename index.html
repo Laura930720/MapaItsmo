@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <title>Corredor Interoceánico</title>
+        <script src="lib/leaflet/leaflet.js"></script>
+        <link rel="stylesheet" href="lib/leaflet/leaflet.css">
+        <link rel="stylesheet" href="map.css">
+
+        <!-- LIBERÍA CLUSTER MAP-->
+         <link rel="stylesheet" href="dist/MarkerCluster.css" /> 
+        <link rel="stylesheet" href="dist/MarkerCluster.Default.css" /> 
+        <script src="dist/leaflet.markercluster.js"></script>
+        <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+        <!-- LEAFLET CONYTROL LAYER-->
+        <link rel="stylesheet" href="lib/leaflet/L.Control.Layers.Tree.css"/>
+        <script src="lib/leaflet/L.Control.Layers.Tree.js" ></script>  
+        <!-- LEAFLET MAPAS BASE -->
+        <script src="js/leaflet-providers.js"></script>
+        <!-- PLUGIN DIBUJO-->
+        <link rel="stylesheet" href="lib/leaflet/leaflet-geoman.css" />  
+        <script src="lib/leaflet/leaflet-geoman.min.js"></script> 
+        <!-- LEAFLET MINI MAP-->
+        <link rel="stylesheet" href="lib/leaflet/Control.MiniMap.css" />
+        <script src="lib/leaflet/Control.MiniMap.js" type="text/javascript"></script> 
+        <!--CAPAS -->
+        <script type="text/javascript" src="capas\Parques_industriales.js"></script>
+        <script type="text/javascript" src="capas\Estados.js"></script>
+        <script type="text/javascript" src="capas\Municipios.js"></script>
+        <script type="text/javascript" src="capas\Central.js"></script>
+        <script type="text/javascript" src="capas\institutos.js"></script>
+        <script type="text/javascript" src="capas\aerodromo.js"></script>
+        <script type="text/javascript" src="capas\Ferrocarril.js"></script>
+        <script type="text/javascript" src="capas\LineaTelefonica.js"></script>
+        <script type="text/javascript" src="capas\SubestacionEnergiaElectrica.js"></script>
+        <script type="text/javascript" src="capas\ExtraccionyPerforacionPetrolera.js"></script>
+        <script type="text/javascript" src="capas\GeneradoresCFE.js"></script>
+        <script type="text/javascript" src="capas\CentralElectricaEnergiaRenovable.js"></script>
+        <script type="text/javascript" src="capas\IndustriasManufactureras.js"></script>
+        <script type="text/javascript" src="capas\Minas.js"></script>
+        <script type="text/javascript" src="capas\concesionesMinerasItsmo.js"></script>
+        <!--CAPAS DE MANUFACTURAS-->
+        <script type="text/javascript" src="manufacturas\IndusAlimentariaMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusAlimentariaMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusTabacoMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusTabacoMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\InsumoTextilMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusTextilMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusRopaMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusRopaMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusCueroMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusMaderaMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusMaderaMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusPapelMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\DerivadosPetrolMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusImpresionMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusImpresionMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusQuimicaMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusQuimicaMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusPlaticHuleMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\IndusPlaticHuleMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\NoMetalMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\NoMetalMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\MetalBasicoMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\MetalBasicoMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\FabrMetalMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\FabrMetalMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\MaquinariaMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\MaquinariaMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\EquipoCompuMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\FabricAccesoriosMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\EquipoTransporMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\EquipoTransporMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\FabriMueblesMenos10.js"></script>
+        <script type="text/javascript" src="manufacturas\OtrasIndusMas10.js"></script>
+        <script type="text/javascript" src="manufacturas\OtrasIndusMenos10.js"></script>
+
+        <script src="manufacturas.js"></script>
+
+    </head>
+
+    <body>
+
+        <div id="map"></div>
+
+    </body>
+
+    <script src="map.js"></script>
+</html>
